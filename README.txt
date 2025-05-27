@@ -1,6 +1,5 @@
 HYBRID LSTM-LOGISTIC REGRESSION MODEL FOR FOREX FORECASTING  
-A real-time financial forecasting system predicting forex reactions to economic news using a hybrid LSTM and Logistic Regression model.  
-Deployed using Streamlit with integration of NLP and numerical analysis.
+A real-time financial forecasting system predicting forex reactions to economic news using a hybrid LSTM and Logistic Regression model. Deployed using Streamlit with integration of NLP and numerical analysis.
 
 🔍 SYSTEM FEATURES
 
@@ -29,12 +28,11 @@ Visualization: Matplotlib, Seaborn
 
 Key Files & Folders:  
 • app.py                     - Main Streamlit app for real-time predictions  
-• model/                    - Trained model weights and tokenizers  
+• models/                    - Trained model weights and tokenizers  
 • data/                     - Raw and cleaned economic news datasets  
 • notebooks/                - Jupyter notebooks for EDA and training  
 • utils/                    - Data preprocessing, tokenizer, scaler modules  
-• results/                  - Visual evaluation results (graphs, charts)  
-• requirements.txt          - All required dependencies  
+• results/                  - Visual evaluation results (graphs, charts)   
 • README.txt                - You are reading it 😉  
 
 ⚙️ SETUP & RUN
