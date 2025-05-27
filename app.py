@@ -6,8 +6,8 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
 
 # --- Load real model and preprocessing objects ---
 model = load_model("models/regression_forex_price.h5")
-tokenizer = joblib.load("models/tokenizer.pkl")
-scaler = joblib.load("models/scaler.pkl")
+tokenizer = joblib.load("utils/tokenizer.pkl")
+scaler = joblib.load("utils/scaler.pkl")
 
 # --- Streamlit UI ---
 st.set_page_config(page_title="Forex News Impact Prediction", layout="centered")
