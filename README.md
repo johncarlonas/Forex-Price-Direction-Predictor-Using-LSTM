@@ -1,7 +1,7 @@
 
 <div align="center">
 
-<h1>Forex Price Direction Predictor LSTM</h1>
+<h1>Forex Price Direction Predictor using LSTM</h1>
 
 <p>
   A machine learning application that analyzes economic news headlines and numerical indicators to estimate forex market direction using a Bidirectional LSTM regression model.
